@@ -1,0 +1,13 @@
+---
+# TODO: установка и базовая настройка nginx, деплой простого сайта
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
+
+- name: Ensure nginx running
+  service:
+    name: nginx
+    state: started
+    enabled: yes

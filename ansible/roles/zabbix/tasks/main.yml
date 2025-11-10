@@ -1,0 +1,5 @@
+---
+# TODO: установка Zabbix server/agent в зависимости от группы хостов
+- name: Placeholder for Zabbix tasks
+  debug:
+    msg: "Implement Zabbix server/agent setup here"

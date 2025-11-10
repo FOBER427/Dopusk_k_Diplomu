@@ -1,0 +1,13 @@
+---
+- name: Site configuration
+  hosts: all
+  gather_facts: yes
+  become: yes
+  vars:
+    nginx_enabled: true
+    zabbix_enabled: true
+    filebeat_enabled: true
+  roles:
+    - { role: nginx, when: nginx_enabled }
+    - { role: zabbix, when: zabbix_enabled }
+    - { role: filebeat, when: filebeat_enabled }

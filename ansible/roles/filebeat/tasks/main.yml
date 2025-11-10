@@ -1,0 +1,5 @@
+---
+# TODO: установка Filebeat и отправка логов nginx в Elasticsearch
+- name: Placeholder for Filebeat tasks
+  debug:
+    msg: "Implement Filebeat setup here"

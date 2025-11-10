@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ansible
+*.retry
+
+# Python/venv
+__pycache__/
+.venv/
+
+# IDE/Editors
+.idea/
+.vscode/
+*.iml
